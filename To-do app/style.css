@@ -1,0 +1,80 @@
+body
+{
+    background-color: #424242 !important;
+    text-align: center;
+}
+
+
+h2
+{
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+h3
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: #fff;
+}
+
+p, textarea
+{
+    font-family: 'Montserrat',sans-serif !important;
+}
+
+.body
+{
+    padding: 10px;
+}
+
+.content
+{
+    width: 80%;
+    height: 80%;
+    /* ? Center all items */
+        position: absolute;
+        top: 20%;
+        left: 10%;
+}
+
+.main-title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box
+{
+    font-size: 25px !important;
+    background-color: #fff;
+    color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.head-to-do
+{
+    background-color: #f57c00 !important;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.head-completed
+{
+    background-color: #43a047 !important;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn-add
+{
+    padding: 10px 30px !important;
+    font-size: 30px !important;
+}
+
+/* ? CSS de !important istifade etme sebebimiz boostrap ile gelen atributlari 2 ci onceliye atmagdir */
